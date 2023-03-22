@@ -5,8 +5,8 @@ window.addEventListener("load", function() {
   const form = document.querySelector("form");
   const zipField = document.querySelector("#zip");
   const vehiclesField = document.querySelector("input[name='vehicles']:checked");
-  let insuredField = getRadioValue("insured");
-  let homeownerField = getRadioValue("homeowner");
+  const insuredField = document.querySelector("input[name='insured']:checked");
+  const homeownerField = document.querySelector("input[name='homeowner']:checked");
   const ageField = document.querySelector("#age");
 
   // Set the default value of the age field
