@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("queryString", queryString);
 
     // Update the form action
-    form.action = `https://autoquotepros.com/thank-you/?${queryString}`;
+    form.action = `https://autoquotegenie.com/thank-you/?${queryString}`;
 
     // Submit the form
     form.submit();
